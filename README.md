@@ -1,13 +1,13 @@
 # gstchecker
 The details of a company is fetched using the `requests` library and parsed with `BeautifulSoup4`. GSTIN number — a 15 digit tax identification number is used to generate the name, address, type, etc. of the company.
 
-If you're running the python file run these two command to install required packages
+Run this command in the terminal to install `gstchecker` package
 
-    pip install requests beautifulsoup4
+    pip install gstchecker
 
 ## Documentation
 
-Include the downloaded python file in your local directory. To import the file use the below code.
+To import the file use the below code
 
     import gstchecker
 
@@ -86,5 +86,5 @@ Errors are listed in specific order so that that one error can lead to subsequen
 ![image](https://github.com/hariprasath112/gstchecker/assets/96934076/4ca7c28a-f80c-449d-8cb5-a2ba93bd8e51)
 
 ### Functionality issues
-The program faces issues with correctly parsing ~~natue~~ (removed for improved functionality) and date. 
+The program faces issues with correctly parsing ~~nature~~ (removed for improved functionality) and date. 
 
