@@ -50,23 +50,22 @@ def check(gstin):
         for i in range(len(data)):
                 tempList=data[i]
                 reqData.append(tempList[1])
-        global name,pan,person,type,add,nature,date
+        global name,pan,person,type,add,date
         name = str(reqData[0])
         pan=str(reqData[1])
         person=str(reqData[2])
         type=str(reqData[4])
         add=str(reqData[6].split(",")[0])
         date=str(reqData[8].split("T")[0])
-        nature=str(reqData[7].split("],")[1])
         status+="[No Errors]"
     except:
         status+="[Parsing Failure]"
 def disp(input):
     print(input)
 def printall():
-    print(name,pan,person,type,add,nature,date)
+    print(name,pan,person,type,add,date)
 def printwith(spacer):
-    print(name,spacer,pan,spacer,person,spacer,type,spacer,add,spacer,nature,spacer,date)
+    print(name,spacer,pan,spacer,person,spacer,type,spacer,add,spacer,date)
 def checkstatus():
     global status
     if (status==""):
