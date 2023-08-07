@@ -71,6 +71,6 @@ def checkstatus():
     global status
     if (status==""):
         status+="[Offline]"
-        print("g")
+        print(status)
     else:
-        print("g")
+        print(status)
