@@ -26,10 +26,8 @@ You check whether the check() was a success or not using
 | `gstchecker.pan`  | Entity PAN  |
 |  `gstchecker.person` |  Entity registree |
 |  `gstchecker.type` | Entity type  |
-| `add`  | Entity address  |
-| `gstchecker.nature`  |  Entity nature of business |
+| `gstchecker.add`  | Entity address  |
 | `gstchecker.date`  | Entity registration date  |
-
 
 To print a particular variable listed above use the function
 
@@ -76,4 +74,17 @@ Errors are listed in specific order so that that one error can lead to subsequen
 | `[Content retreival failure]`  | means url, input and csrf parameter are not compatible and no data was received  |
 |  `[Parsing Failure]` | means that some data was received, but it was unable to translate to needed data. The site may have altered its HTML  |
 |  `[No Error]` |  is shown when requesting status through `gstchecker.status()` if all function worked perfectly |
+
+## Screenshots
+
+![image](https://github.com/hariprasath112/gstchecker/assets/96934076/164cfd3b-24ce-49c4-9f02-35c25b3b2b4d)
+
+![Screenshot 2023-08-07 214511](https://github.com/hariprasath112/gstchecker/assets/96934076/9bf7de71-70f3-4499-a7e6-fbb0631abfdb)
+
+![image](https://github.com/hariprasath112/gstchecker/assets/96934076/e1060454-a90b-42f2-91a0-7819ebea7fb7)
+
+![image](https://github.com/hariprasath112/gstchecker/assets/96934076/4ca7c28a-f80c-449d-8cb5-a2ba93bd8e51)
+
+### Functionality issues
+The program faces issues with correctly parsing ~~natue~~ (removed for improved functionality) and date. 
 
