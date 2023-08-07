@@ -61,8 +61,8 @@ def check(gstin):
         status+="[No Errors]"
     except:
         status+="[Parsing Failure]"
-def print(self):
-    print(self)
+def disp(input):
+    print(input)
 def printall():
     print(name,pan,person,type,add,nature,date)
 def printwith(spacer):
@@ -71,6 +71,6 @@ def checkstatus():
     global status
     if (status==""):
         status+="[Offline]"
-        print(status)
+        print("g")
     else:
-        print(status)
+        print("g")
